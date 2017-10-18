@@ -6,11 +6,11 @@ var config = {
     storageBucket: "firestore-1da30.appspot.com",
     messagingSenderId: "11860285726"
 };
-firebase.initlaizeApp(config);
+firebase.initalizeApp(config);
 var firestore = firebase.firestore();
 
 const docRef = firestore.doc("samples/americaData");
-const outputHeader = document.querySelector("#Americaoutput");
+const outputHeader = document.querySelector("#AmericaOutput");
 const inputTextField = document.querySelector("#latestAmericastatus");
 const saveButton = document.querySelector("#savebutton");
 
@@ -18,7 +18,7 @@ saveButton.addEventListener("click",function(){
     const textToSave = inputTextField.value;
     console.log("I am going to save" + textToSave + "to Firestore");
     docRef.set({
-        hotDogStatus: textToSave
+        americabestcountry: textToSave
     }).then(function(){
         console.log("Status saved!");
     }).catch(function(error){
