@@ -1,0 +1,19 @@
+{
+  "name": "firestore",
+  "version": "1.0.0",
+  "description": "live at https://praitayini.github.io/firestore",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://praitayini@github.com/praitayini/firestore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praitayini/firestore/issues"
+  },
+  "homepage": "https://github.com/praitayini/firestore#readme"
+}
