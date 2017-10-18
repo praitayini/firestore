@@ -6,7 +6,7 @@ var config = {
     storageBucket: "firestore-1da30.appspot.com",
     messagingSenderId: "11860285726"
 };
-firebase.initlaizeApp(config);
+firebase.initalizeApp(config);
 var firestore = firebase.firestore();
 
 const docRef = firestore.doc("samples/americaData");
