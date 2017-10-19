@@ -18,7 +18,7 @@ saveButton.addEventListener("click",function(){
     const textToSave = inputTextField.value;
     console.log("I am going to save" + textToSave + "to Firestore");
     docRef.set({
-        hotDogStatus: textToSave
+        americabestcountry: textToSave
     }).then(function(){
         console.log("Status saved!");
     }).catch(function(error){
